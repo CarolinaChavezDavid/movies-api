@@ -8,6 +8,8 @@ insert into movies values(7, 'https://images.fineartamerica.com/images/artworkim
 insert into movies values(8, 'https://flxt.tmsimg.com/assets/p11822719_p_v10_ad.jpg',  4.3, 'The danish girl');
 insert into movies values(9, 'https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png',  4.6, 'Enigma');
 insert into movies values(10, 'https://m.media-amazon.com/images/I/51FINzPs8mL.jpg',  4.5, 'Shutter island');
+insert into movies values(11, 'https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg', 4.5, 'The lion king')
+insert into movies values(12, 'https://m.media-amazon.com/images/I/511J5S8F5XL._SY445_.jpg', 4.4, 'A bugs life')
 
 
 

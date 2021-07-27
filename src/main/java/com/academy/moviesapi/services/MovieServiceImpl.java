@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class MovieServiceImpl implements MovieService{
+public class MovieServiceImpl implements MovieService {
 
     @Autowired
     MovieRepository movieRepository;
@@ -17,4 +17,9 @@ public class MovieServiceImpl implements MovieService{
     public List<Movie> getMovieList() {
         return movieRepository.findAll();
     }
+
+    @Override
+    public void saveMovie(Movie movie) { movieRepository.save(movie); }
+
+
 }
