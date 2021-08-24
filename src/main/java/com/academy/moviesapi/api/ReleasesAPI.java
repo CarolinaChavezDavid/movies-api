@@ -1,7 +1,9 @@
 package com.academy.moviesapi.api;
 
 import com.academy.moviesapi.entities.Movie;
+import com.academy.moviesapi.entities.Releases;
 import com.academy.moviesapi.services.MovieService;
+import com.academy.moviesapi.services.ReleasesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,14 +13,14 @@ import java.util.List;
 @RequestMapping("/api/releases")
 public class ReleasesAPI {
     @Autowired
-    MovieService movieService;
+    ReleasesService releasesService;
 
     @GetMapping("/")
-    public List<Movie> getMovies(){
-        return movieService.getMovieList();
+    public List<Releases> getReleases(){
+        return releasesService.getReleasesList();
     }
 
     @PostMapping(path = "/{id}")
-    public void saveMovie (@RequestBody Movie movie){movieService.saveMovie(movie);}
+    public void saveReleases (@RequestBody Releases releases){releasesService.saveRelease(releases);}
 
 }
