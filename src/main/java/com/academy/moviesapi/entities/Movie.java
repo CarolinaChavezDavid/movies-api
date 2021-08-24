@@ -13,7 +13,6 @@ public class Movie {
     private String title;
     private String poster;
     private Double rating;
-
     public Long getId() {
         return id;
     }
