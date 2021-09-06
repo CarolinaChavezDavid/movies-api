@@ -12,29 +12,16 @@ insert into movies values(11, 'https://m.media-amazon.com/images/M/MV5BMjIwMjE1N
 insert into movies values(12, 'https://m.media-amazon.com/images/I/511J5S8F5XL._SY445_.jpg', 4.4, 'A bugs life')
 
 
-insert into series values(1, 'https://i.pinimg.com/originals/89/51/1e/89511e1cc04e5be706168a6945c49d75.jpg',  4.9, 'Velvet', 1);
-insert into series values(2, 'https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_.jpg',  4.9, 'Modern Family', 3);
-insert into series values(3, 'https://halleonard-closerlook.s3.amazonaws.com/00199167/00199167_Coverz.jpg',  5.0, 'Game of thrones',5 );
-insert into series values(4, 'https://i.pinimg.com/originals/b1/e7/54/b1e754928faa4c6ec9026c8bc799b972.jpg',  4.4, 'El tiempo entre costuras', 6);
-insert into series values(5, 'https://upload.wikimedia.org/wikipedia/en/1/12/The_Queen%27s_Gambit_%28miniseries%29.png',  4.7, 'The queens Gambit', 6);
-insert into series values(6, 'https://i.pinimg.com/474x/b6/ff/c6/b6ffc6997c65980072ff9187b0feee58.jpg',  4.4, 'El gran hotel', 1);
-insert into series values(7, 'https://cdn.fstatic.com/media/movies/covers/2020/04/la_casa_de_las_flores_ver14_7puzeHB.jpg',  4.0, 'La casa de las flores', 3);
-insert into series values(8, 'https://dvdbash.files.wordpress.com/2013/10/the-oc-gallagher-rowan-mckenzie-brody-bilson-clarke-barton-donovan-dale-reeser-holland-armstrong-wilde-dvdbash1.jpg',  4.5, 'The O.C', 5);
-insert into series values(9, 'https://upload.wikimedia.org/wikipedia/en/1/10/Pretty_Little_Liars_Season_1_DVD_Cover_Art.png',  4.5, 'Pretty little liars', 5);
-insert into series values(10, 'https://1.bp.blogspot.com/-bumVth2-jWY/XUuKdt1fHuI/AAAAAAAAS74/j0FSxkQZYd0Dh41c_FzZD8XDJWD0HqMiQCLcBGAs/s1600/las-chicas-del-cable-blog.jpg',  4.0, 'Las chicas del cable', 5);
-insert into series values(11, 'https://queseriesver.es/wp-content/uploads/2019/12/el-internado-500x710.jpg',  4.0, 'El internado', 5);
-insert into series values(12, 'https://www.formulatv.com/images/series/posters/100/135/dest_1.jpg',  4.8, 'Naruto', 4);
-insert into series values(13, 'https://www.formulatv.com/images/series/posters/1100/1158/dest_3.jpg',  4.0, 'Dragon ball', 4);
-
-
-
-insert into releases values(1, 'The girl who got away', 'https://pics.filmaffinity.com/The_Girl_Who_Got_Away-533594055-large.jpg',  3.79, 'Massena, Nueva York, 1998. Una década de terror llega a su fin con la captura de Elizabeth Caulfield, una mujer que secuestró a cinco niñas y fingió que eran suyas. Sólo una niña, Christina Bowden, consiguió salir con vida, las otras cuatro fueron encontradas enterradas detrás de la decrépita casa de Caulfield… 20 años después, Caulfield ha escapado de la cárcel y se lanza a una persecución mortal para terminar lo que empezó. La vida aparentemente perfecta de Christina se derrumba a su alrededor cuando los secretos de su pasado vuelven a perseguirla');
-insert into releases values(2, 'Playing god', 'https://pics.filmaffinity.com/Playing_God-702145793-mmed.jpg',  3.95 'Un dúo de hermanos y hermanas estafadores se encuentran estafando a un multimillonario en duelo al convencerlo de que pueden presentarlo a Dios, cara a cara.');
-insert into releases values(3, 'Sweet girl', 'https://pics.filmaffinity.com/Sweet_Girl-770685972-mmed.jpg',  4.27, 'Un marido destrozado jura llevar ante la justicia a los responsables de la muerte de su mujer, a la vez que protege a la única familia que le queda, su hija.');
-insert into releases values(4, 'La casa del caracol', 'https://pics.filmaffinity.com/La_casa_del_caracol-235255571-large.jpg',  3.38, 'El escritor Antonio Prieto decide pasar el verano en un pueblo de la serranía malagueña, donde espera encontrar tranquilidad e inspiración para su siguiente novela. Allí conoce a Berta, una mujer por la que siente una atracción instantánea, así como a algunos personajes peculiares sobre los que empieza a escribir e investigar. Antonio comienza a descubrir que los locales guardan numerosos secretos y una perturbadora leyenda oculta. La realidad que vivirá en esos días le harán ir dándose cuenta que, a veces, la realidad supera con creces los mitos.');
-insert into releases values(5, 'Chaos Walking', 'https://pics.filmaffinity.com/Chaos_Walking-211371935-large.jpgg',  4.26, 'En Prentisstown, Todd ha crecido creyendo que la «Masilla» fue la responsable de liberar un germen que asesinó a todas las mujeres y contagió con el «ruido» al resto de los hombres. Tras descubrir un remanso de silencio en un pantano, sus padres adoptivos le obligan a huir lo más rápido que pueda, dejando todo atrás salvo un mapa del Nuevo Mundo y un mensaje, así como un sinfín de preguntas sin responder. Pronto descubre la fuente del silencio: una chica llamada Viola. Los dos deben avisar lo antes posible sobre la inminente llegada de una nave para que el intendente Prentiss pueda preparar un ejército para la guerra.');
-
-
-
-
-
+insert into series values(1, 1.0, 'https://i.pinimg.com/originals/89/51/1e/89511e1cc04e5be706168a6945c49d75.jpg',  4.9, 'Velvet');
+insert into series values(2, 3.0, 'https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_.jpg',  4.9, 'Modern Family');
+insert into series values(3, 5.0, 'https://halleonard-closerlook.s3.amazonaws.com/00199167/00199167_Coverz.jpg',  5.0, 'Game of thrones');
+insert into series values(4, 6.0, 'https://i.pinimg.com/originals/b1/e7/54/b1e754928faa4c6ec9026c8bc799b972.jpg',  4.4, 'El tiempo entre costuras');
+insert into series values(5, 6.0, 'https://upload.wikimedia.org/wikipedia/en/1/12/The_Queen%27s_Gambit_%28miniseries%29.png',  4.7, 'The queens Gambit');
+insert into series values(6, 1.0, 'https://i.pinimg.com/474x/b6/ff/c6/b6ffc6997c65980072ff9187b0feee58.jpg',  4.4, 'El gran hotel');
+insert into series values(7, 3.0, 'https://cdn.fstatic.com/media/movies/covers/2020/04/la_casa_de_las_flores_ver14_7puzeHB.jpg',  4.0, 'La casa de las flores');
+insert into series values(8, 5.0, 'https://dvdbash.files.wordpress.com/2013/10/the-oc-gallagher-rowan-mckenzie-brody-bilson-clarke-barton-donovan-dale-reeser-holland-armstrong-wilde-dvdbash1.jpg',  4.5, 'The O.C');
+insert into series values(9, 5.0, 'https://upload.wikimedia.org/wikipedia/en/1/10/Pretty_Little_Liars_Season_1_DVD_Cover_Art.png',  4.5, 'Pretty little liars');
+insert into series values(10, 5.0, 'https://1.bp.blogspot.com/-bumVth2-jWY/XUuKdt1fHuI/AAAAAAAAS74/j0FSxkQZYd0Dh41c_FzZD8XDJWD0HqMiQCLcBGAs/s1600/las-chicas-del-cable-blog.jpg',  4.0, 'Las chicas del cable');
+insert into series values(11, 5.0, 'https://queseriesver.es/wp-content/uploads/2019/12/el-internado-500x710.jpg',  4.0, 'El internado');
+insert into series values(12, 4.0, 'https://www.formulatv.com/images/series/posters/100/135/dest_1.jpg',  4.8, 'Naruto');
+insert into series values(13, 4.0, 'https://www.formulatv.com/images/series/posters/1100/1158/dest_3.jpg',  4.0, 'Dragon ball')
